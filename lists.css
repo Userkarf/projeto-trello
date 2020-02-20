@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+        
+}
+
+@media(max-width: 992px){
+    .navbar-toggler{
+        margin-right: 80%;
+    }
+    .navbar-brand{
+        display: none;
+    }
+   
+}
+
+
+.navbar{
+    background-color: darkcyan;
+}
+
+.navbar a{
+    color: black;
+}
+
+.navbar a:hover{
+    color: bisque;
+}
+
+
+.container-fluid{
+    height: 570px;
+    position: absolute;
+} 
+
+.card-body{
+    margin-top: 20px;
+    width: 18rem;
+}
+
+#list_group{
+    background-color: white;
+    width: 12rem;
+    text-align: center;
+
+
+}
+
+#card_principal:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+
+#butau{
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#butau3{
+    cursor: pointer;
+}
