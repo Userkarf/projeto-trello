@@ -36,6 +36,7 @@ var login = document.getElementById("form_login_botao")
             if (this.readyState == 4 && this.status == 200) {
                 console.log(this.responseText);
                 alert("Usuário cadastrado com sucesso!")
+                location.replace("index.html")
             } 
             if (this.readyState == 4 && this.status == 400) {
                 alert("Usuário já foi cadastrado! Verifique o nome do usuário!")
@@ -50,9 +51,7 @@ var login = document.getElementById("form_login_botao")
         xhttp.send(JSON.stringify(dados));
     }
     else{
-        alert("senhas não são iguais")
-        alert(senha1.value)
-        alert(senha2.value)
+        alert("senhas não correspondem")
 
     }
 
